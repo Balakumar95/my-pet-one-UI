@@ -19,6 +19,16 @@
 @import "button-group";
 @import "custom-forms";
 
-h1 {
-    color: red;
+// themes/ will be replaed by the respective theme file in gulp
+@import "themes/";
+
+h1, h2 {
+        color: $txt_color;
+}
+
+body {
+  background-color: $bg_color;
+  text {
+    color: $txt_color;
+  }
 }
